@@ -1,15 +1,15 @@
 "use strict";
 // console.log("hello class");
 // write a stype script prog that cal of sum of even # 1 to 1000;
-var sum = 0;
-var list = [];
-for (let index = 0; index <= 100000; index++) {
-    if (index % 2 == 0) {
-        sum = sum + index;
-        list.push(index);
-    }
-}
-console.log("sum", sum, list);
+// var sum:number=0;
+// var list:number[]=[];
+// for(let index=0;index<=100000; index++){
+// if (index % 2 ==0) {
+//     sum = sum + index;
+//     list.push(index)
+// } 
+// }
+// console.log("sum", sum, list);
 //let i:number=1;
 // do {
 //     console.log("naveed");
@@ -43,3 +43,7 @@ console.log("sum", sum, list);
 // ++index;
 // --index;
 //console.log("index",index);
+function sum(num1, num2) {
+    return num1 + num2;
+}
+console.log(sum(2, 3));
